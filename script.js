@@ -16,8 +16,8 @@ const classHide = document.querySelector("#hide");
 const date = new Date;
 
 
-const day = date.getDate();   
-const month = date.getMonth() < 10 ? '0' + (date.getMonth() + 1)  : date.getMonth()
+const day = date.getDate() < 9 ? '0' + date.getDate() : date.getDate();   
+const month = date.getMonth() < 10 ? '0' + (date.getMonth() + 1)  : date.getMonth() + 1
 const year = date.getFullYear();         
 
 // if (month < 10){
@@ -41,6 +41,8 @@ const getInformationFromAPI = async (inputDate) => {
     .then(data => {
 
         console.log(today)
+        console.log(day)
+        console.log(month)
         console.log(data);
         console.log(data.title)
         console.log(data.url.substring(30,41))
@@ -75,5 +77,6 @@ btn.addEventListener("click", () => {
     inputDate = data.value;
     console.log(inputDate);
     console.log (today)
+
     getInformationFromAPI(inputDate);
 })

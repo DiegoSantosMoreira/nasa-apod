@@ -3,7 +3,7 @@
 Seguindo os estudos em como consumir uma API, gostaria de compartilhar meu mais novo projeto:
 Nasa - Astronomy Picture Of the Day.
 
-O projeto consiste em o usuário indicar uma data no input, e o programa resgata a imagem ou vídeo fornecidos pela NASA daquele dia juntamente com a explicação.  
+O projeto consiste em o usuário indicar uma data no input, com a data entre 16/06/1996 até a data atual, e o programa resgata a imagem ou vídeo fornecidos pela NASA daquele dia juntamente com a explicação referente a imagem.  
 
 ## 👨🏾‍💻 Desafios e aprendizados
 
