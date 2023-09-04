@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Montserrat:wght@100;300&family=Poppins:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+
+
+/* Header */
+
+.header {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 1.5rem;
+} 
+
+.header .menu-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.header .menu-nav img {
+    width: 70px;
+}   
+
+.header .menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 0 100px;
+}
+
+.header .menu-nav ul li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #a9a9a9;
+}
+
+.header .menu-nav ul li a:hover {
+    color: #07253a;
+    border-top: 1.5px solid #07253a;
+    border-bottom: 1.5px solid #07253a;
+    transition: all 0.5s ease-in-out;
+}
+
+/* SECTION */
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.main-section .input-section {
+    border-top: 0.5px solid #07253a;
+    width: 50%;
+}
+
+.main-section .input-section #input-date {
+    border: none;
+    padding: 25px;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+}
+
+.main-section .input-section #search {
+    width: 100px;
+    height: 50px;
+    font-size: 1.15rem;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #E6E6FA;
+    color: #07253a;
+}
+
+.main-section .input-section #search:hover {
+    cursor: pointer;
+    background-color: #07253a;
+    color: #fff;
+} 
+
+.main-section .input-section #input-date:focus {
+    box-shadow: 0;
+    border:  0 none;
+    outline: 0;
+}
+
+
+.main-section #image-section {
+    border: 0.2px solid #07253a;
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
+.main-section #image-section #title {
+    margin: 1.5rem;
+    text-align: center;
+    background-color: #E6E6FA;
+    border-radius: 5px;
+}
+.main-section #image {
+    width: 850px;
+    height: 600px;
+    border-radius: 8px 8px 0 0;
+}
+
+.main-section #description {
+    color: #07253a;
+    text-align: justify;
+    max-width: 850px;
+    font-size: 1.2rem;
+}
+
+.main-section #image-section #video {
+    display: none;
+}
+
+/* classes de controle */
+
+.hide {
+    display: none;
+}
