@@ -181,5 +181,6 @@
     .main-section #description {
         max-width: 95%;
         font-size: 0.9rem;
+        margin: 10px auto;
     }
 }
