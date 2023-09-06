@@ -39,7 +39,8 @@ const getInformationFromAPI = async (inputDate) => {
     fetch(apiUrl)
     .then(response => response.json())
     .then(data => {
-
+    
+        
         console.log(today)
         console.log(day)
         console.log(month)
