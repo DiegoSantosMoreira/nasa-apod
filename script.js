@@ -57,6 +57,8 @@ const getInformationFromAPI = async (inputDate) => {
             
             console.log (data.url);
             // videoApi.setAttribute("src", data.url)//`https://www.youtube.com/embed/=${data.url.substring(30,41)}`);
+
+            
             videoApi.setAttribute ("src", data.url)
             imageApi.classList.add("hide");
         
